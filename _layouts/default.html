@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+{% seo %}
+<link rel="stylesheet" href="{{ '/assets/style.css' | relative_url }}">
+</head>
+<body>
+<header class="top">
+  <a class="brand" href="{{ '/' | relative_url }}">Jesús Ferri</a>
+  <nav>
+    <a href="{{ '/blog/' | relative_url }}">Blog</a>
+    <a href="{{ '/curriculum/' | relative_url }}">Currículum</a>
+    <a href="{{ '/mi-trabajo/' | relative_url }}">Mi trabajo</a>
+  </nav>
+</header>
+<main>{{ content }}</main>
+<footer class="foot">
+  <p>Jesús Ferri Barrajón, asesor SEO en Albacete y Toledo.</p>
+</footer>
+</body>
+</html>

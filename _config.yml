@@ -1,0 +1,12 @@
+title: Jesús Ferri · Asesor SEO
+description: Asesor SEO en Albacete y Toledo. Auditorías, SEO local, contenidos y noticias del mundo SEO.
+lang: es
+url: "https://jesusferri.github.io"
+baseurl: ""
+permalink: /blog/:title/
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+defaults:
+  - scope: { path: "", type: "posts" }
+    values: { layout: "post" }
